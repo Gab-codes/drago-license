@@ -86,7 +86,7 @@ export default function Home() {
               <tr key={license.license_key} className="border">
                 <td className="border p-2 font-mono">{license.license_key}</td>
                 <td className="border p-2">
-                  {license.used ? "Used" : "Active"}
+                  {license.activated ? "Used" : "Active"}
                 </td>
                 <td className="border p-2">
                   <button
