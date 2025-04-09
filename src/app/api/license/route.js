@@ -166,6 +166,7 @@ export async function GET(req) {
             activated: 1,
             device_id: 1,
             activated_at: 1,
+            created_at: 1,
           })
           .sort({ created_at: -1 })
           .toArray();
